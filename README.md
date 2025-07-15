@@ -1,3 +1,60 @@
+# React Auth Demo — Simple Login System with Protected Dashboard
+
+This project is a simple React-based authentication demo. It includes a login system with hardcoded credentials and a protected dashboard route using React Router.
+
+## 🔗 Project Repository
+
+[https://github.com/Meshach-Thomas/task2.git](https://github.com/Meshach-Thomas/task2.git)
+
+## 🎯 Objective
+
+Build a login system that:
+
+- Uses hardcoded credentials  
+- Redirects authenticated users to a protected dashboard  
+- Prevents access to dashboard without login  
+
+## ✅ Features
+
+- Login form with username & password fields
+
+- 
+- Two hardcoded user credentials:  
+ - user name is "admin"
+ - password is "password123"
+
+ - 
+- Session storage using React Context API or localStorage  
+- Protected route using React Router  
+- Error message for invalid credentials  
+- Welcome message on dashboard:  
+  - `"Welcome, [username]"`  
+- Automatic redirection to login if accessing `/dashboard` without authentication  
+
+## 🛠️ Technologies Used
+
+- React  
+- React Router DOM  
+- JavaScript  
+- CSS  
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js installed  
+- npm or yarn  
+
+### Installation Steps
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/Meshach-Thomas/task2.git
+   cd task2
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
